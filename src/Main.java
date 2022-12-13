@@ -1,3 +1,8 @@
+/***
+ * Uygulamayı başlatan main fonksiyonudur.
+ * @ShowName sınıfındaki showName metodunu çağırır.
+ */
+
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
 import java.io.IOException;

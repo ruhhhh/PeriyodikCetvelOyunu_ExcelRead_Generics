@@ -1,5 +1,9 @@
 import java.util.Random;
 
+/***
+ * 0-108 arasında random sayı döndürür.
+ */
+
 public class RandomNumberCreate {
 
     public int randomNumberCreate(){

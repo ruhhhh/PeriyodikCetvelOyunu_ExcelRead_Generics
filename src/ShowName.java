@@ -4,8 +4,20 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
+
+/***
+ * Statik olarak yüklenen excel dosyasının yolu belirtilir.
+ */
 public class ShowName {
     public static final String path = "./PeriyodikCetvel.xlsx";
+    /***
+     * @RandomNumberCreate sınıfından 0-108 arasında rastgele sayı üretir.
+     * @PointControl sınıfından ilk başlangıç puan değerini alır.
+     * Yüklenen Excel'in satır ve sütunlarını okuyarak iki ayrı HashMap yapısında verileri tutar.
+     * Hashmap leri birbirleri ile bağlayarak veriye ulaşmayı kolaylaştırır.
+     * Oyun hakkı bitince (5 adet) oyun sonlanır.
+     * */
+
     public void showName() throws IOException, InvalidFormatException {
 
         RandomNumberCreate randomNumberCreate = new RandomNumberCreate();
